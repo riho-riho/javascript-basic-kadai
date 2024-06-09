@@ -5,3 +5,11 @@ const holidays = ["正月","成人の日","建国記念日","天皇誕生日","�
 for(let i = 0; i < holidays.length; i++) {
     console.log(holidays[i]);
 }
+
+// 初期値の宣言
+let i = 0
+
+while (i < 16) {
+　　console.log(holidays[i]);
+    i++;
+}
